@@ -21,6 +21,7 @@
 		DF6C2D8F1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D8C1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg */; };
 		DF6C2D971AAAF14900281175 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D961AAAF14900281175 /* InfoViewController.swift */; };
 		DF6C2D991AAAF49A00281175 /* ExpiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D981AAAF49A00281175 /* ExpiryViewController.swift */; };
+		DF9971881AAB0D0A00040F86 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9971871AAB0D0A00040F86 /* NameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		DF6C2D8C1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "空気清浄機F-VXJ35.jpg"; sourceTree = "<group>"; };
 		DF6C2D961AAAF14900281175 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = ../InfoViewController.swift; sourceTree = "<group>"; };
 		DF6C2D981AAAF49A00281175 /* ExpiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpiryViewController.swift; sourceTree = "<group>"; };
+		DF9971871AAB0D0A00040F86 /* NameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				DF6C2D681AAA92CE00281175 /* ViewController.swift */,
 				DF6C2D961AAAF14900281175 /* InfoViewController.swift */,
 				DF6C2D981AAAF49A00281175 /* ExpiryViewController.swift */,
+				DF9971871AAB0D0A00040F86 /* NameViewController.swift */,
 				DF6C2D6A1AAA92CE00281175 /* Main.storyboard */,
 				DF6C2D6D1AAA92CE00281175 /* Images.xcassets */,
 				DF6C2D6F1AAA92CE00281175 /* LaunchScreen.xib */,
@@ -246,6 +249,7 @@
 				DF6C2D641AAA92CE00281175 /* AppDelegate.swift in Sources */,
 				DF6C2D971AAAF14900281175 /* InfoViewController.swift in Sources */,
 				DF6C2D671AAA92CE00281175 /* Warranty_Memo.xcdatamodeld in Sources */,
+				DF9971881AAB0D0A00040F86 /* NameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +441,7 @@
 				DF6C2D821AAA92CE00281175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF6C2D831AAA92CE00281175 /* Build configuration list for PBXNativeTarget "Warranty MemoTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +450,7 @@
 				DF6C2D851AAA92CE00281175 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
