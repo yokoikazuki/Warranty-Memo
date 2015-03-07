@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6C2D641AAA92CE00281175 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D631AAA92CE00281175 /* AppDelegate.swift */; };
+		DF6C2D671AAA92CE00281175 /* Warranty_Memo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D651AAA92CE00281175 /* Warranty_Memo.xcdatamodeld */; };
+		DF6C2D691AAA92CE00281175 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D681AAA92CE00281175 /* ViewController.swift */; };
+		DF6C2D6C1AAA92CE00281175 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D6A1AAA92CE00281175 /* Main.storyboard */; };
+		DF6C2D6E1AAA92CE00281175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D6D1AAA92CE00281175 /* Images.xcassets */; };
+		DF6C2D711AAA92CE00281175 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D6F1AAA92CE00281175 /* LaunchScreen.xib */; };
+		DF6C2D7D1AAA92CE00281175 /* Warranty_MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D7C1AAA92CE00281175 /* Warranty_MemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6C2D771AAA92CE00281175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6C2D561AAA92CE00281175 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6C2D5D1AAA92CE00281175;
+			remoteInfo = "Warranty Memo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF6C2D5E1AAA92CE00281175 /* Warranty Memo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warranty Memo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6C2D621AAA92CE00281175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6C2D631AAA92CE00281175 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF6C2D661AAA92CE00281175 /* Warranty_Memo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Warranty_Memo.xcdatamodel; sourceTree = "<group>"; };
+		DF6C2D681AAA92CE00281175 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF6C2D6B1AAA92CE00281175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6C2D6D1AAA92CE00281175 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF6C2D701AAA92CE00281175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF6C2D761AAA92CE00281175 /* Warranty MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warranty MemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6C2D7B1AAA92CE00281175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6C2D7C1AAA92CE00281175 /* Warranty_MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warranty_MemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6C2D5B1AAA92CE00281175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6C2D731AAA92CE00281175 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6C2D551AAA92CE00281175 = {
+			isa = PBXGroup;
+			children = (
+				DF6C2D601AAA92CE00281175 /* Warranty Memo */,
+				DF6C2D791AAA92CE00281175 /* Warranty MemoTests */,
+				DF6C2D5F1AAA92CE00281175 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6C2D5F1AAA92CE00281175 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C2D5E1AAA92CE00281175 /* Warranty Memo.app */,
+				DF6C2D761AAA92CE00281175 /* Warranty MemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6C2D601AAA92CE00281175 /* Warranty Memo */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C2D631AAA92CE00281175 /* AppDelegate.swift */,
+				DF6C2D681AAA92CE00281175 /* ViewController.swift */,
+				DF6C2D6A1AAA92CE00281175 /* Main.storyboard */,
+				DF6C2D6D1AAA92CE00281175 /* Images.xcassets */,
+				DF6C2D6F1AAA92CE00281175 /* LaunchScreen.xib */,
+				DF6C2D651AAA92CE00281175 /* Warranty_Memo.xcdatamodeld */,
+				DF6C2D611AAA92CE00281175 /* Supporting Files */,
+			);
+			path = "Warranty Memo";
+			sourceTree = "<group>";
+		};
+		DF6C2D611AAA92CE00281175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C2D621AAA92CE00281175 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF6C2D791AAA92CE00281175 /* Warranty MemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C2D7C1AAA92CE00281175 /* Warranty_MemoTests.swift */,
+				DF6C2D7A1AAA92CE00281175 /* Supporting Files */,
+			);
+			path = "Warranty MemoTests";
+			sourceTree = "<group>";
+		};
+		DF6C2D7A1AAA92CE00281175 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF6C2D7B1AAA92CE00281175 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6C2D5D1AAA92CE00281175 /* Warranty Memo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6C2D801AAA92CE00281175 /* Build configuration list for PBXNativeTarget "Warranty Memo" */;
+			buildPhases = (
+				DF6C2D5A1AAA92CE00281175 /* Sources */,
+				DF6C2D5B1AAA92CE00281175 /* Frameworks */,
+				DF6C2D5C1AAA92CE00281175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Warranty Memo";
+			productName = "Warranty Memo";
+			productReference = DF6C2D5E1AAA92CE00281175 /* Warranty Memo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6C2D751AAA92CE00281175 /* Warranty MemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6C2D831AAA92CE00281175 /* Build configuration list for PBXNativeTarget "Warranty MemoTests" */;
+			buildPhases = (
+				DF6C2D721AAA92CE00281175 /* Sources */,
+				DF6C2D731AAA92CE00281175 /* Frameworks */,
+				DF6C2D741AAA92CE00281175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6C2D781AAA92CE00281175 /* PBXTargetDependency */,
+			);
+			name = "Warranty MemoTests";
+			productName = "Warranty MemoTests";
+			productReference = DF6C2D761AAA92CE00281175 /* Warranty MemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6C2D561AAA92CE00281175 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LifeisTech;
+				TargetAttributes = {
+					DF6C2D5D1AAA92CE00281175 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DF6C2D751AAA92CE00281175 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DF6C2D5D1AAA92CE00281175;
+					};
+				};
+			};
+			buildConfigurationList = DF6C2D591AAA92CE00281175 /* Build configuration list for PBXProject "Warranty Memo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6C2D551AAA92CE00281175;
+			productRefGroup = DF6C2D5F1AAA92CE00281175 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6C2D5D1AAA92CE00281175 /* Warranty Memo */,
+				DF6C2D751AAA92CE00281175 /* Warranty MemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6C2D5C1AAA92CE00281175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6C2D6C1AAA92CE00281175 /* Main.storyboard in Resources */,
+				DF6C2D711AAA92CE00281175 /* LaunchScreen.xib in Resources */,
+				DF6C2D6E1AAA92CE00281175 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6C2D741AAA92CE00281175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6C2D5A1AAA92CE00281175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6C2D691AAA92CE00281175 /* ViewController.swift in Sources */,
+				DF6C2D641AAA92CE00281175 /* AppDelegate.swift in Sources */,
+				DF6C2D671AAA92CE00281175 /* Warranty_Memo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6C2D721AAA92CE00281175 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6C2D7D1AAA92CE00281175 /* Warranty_MemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6C2D781AAA92CE00281175 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6C2D5D1AAA92CE00281175 /* Warranty Memo */;
+			targetProxy = DF6C2D771AAA92CE00281175 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6C2D6A1AAA92CE00281175 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6C2D6B1AAA92CE00281175 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF6C2D6F1AAA92CE00281175 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6C2D701AAA92CE00281175 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6C2D7E1AAA92CE00281175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF6C2D7F1AAA92CE00281175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF6C2D811AAA92CE00281175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Warranty Memo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF6C2D821AAA92CE00281175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Warranty Memo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF6C2D841AAA92CE00281175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Warranty MemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warranty Memo.app/Warranty Memo";
+			};
+			name = Debug;
+		};
+		DF6C2D851AAA92CE00281175 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Warranty MemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Warranty Memo.app/Warranty Memo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6C2D591AAA92CE00281175 /* Build configuration list for PBXProject "Warranty Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6C2D7E1AAA92CE00281175 /* Debug */,
+				DF6C2D7F1AAA92CE00281175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6C2D801AAA92CE00281175 /* Build configuration list for PBXNativeTarget "Warranty Memo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6C2D811AAA92CE00281175 /* Debug */,
+				DF6C2D821AAA92CE00281175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF6C2D831AAA92CE00281175 /* Build configuration list for PBXNativeTarget "Warranty MemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6C2D841AAA92CE00281175 /* Debug */,
+				DF6C2D851AAA92CE00281175 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF6C2D651AAA92CE00281175 /* Warranty_Memo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF6C2D661AAA92CE00281175 /* Warranty_Memo.xcdatamodel */,
+			);
+			currentVersion = DF6C2D661AAA92CE00281175 /* Warranty_Memo.xcdatamodel */;
+			path = Warranty_Memo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF6C2D561AAA92CE00281175 /* Project object */;
+}
