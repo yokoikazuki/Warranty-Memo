@@ -14,6 +14,13 @@
 		DF6C2D6E1AAA92CE00281175 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D6D1AAA92CE00281175 /* Images.xcassets */; };
 		DF6C2D711AAA92CE00281175 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D6F1AAA92CE00281175 /* LaunchScreen.xib */; };
 		DF6C2D7D1AAA92CE00281175 /* Warranty_MemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D7C1AAA92CE00281175 /* Warranty_MemoTests.swift */; };
+		DF6C2D871AAA9D5F00281175 /* iphone6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D861AAA9D5F00281175 /* iphone6.jpg */; };
+		DF6C2D891AAAA04E00281175 /* MacBook Air.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D881AAAA04E00281175 /* MacBook Air.jpg */; };
+		DF6C2D8D1AAAA1AD00281175 /* COOLPIX S9300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D8A1AAAA1AD00281175 /* COOLPIX S9300.jpg */; };
+		DF6C2D8E1AAAA1AD00281175 /* iPad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D8B1AAAA1AD00281175 /* iPad.jpg */; };
+		DF6C2D8F1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF6C2D8C1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg */; };
+		DF6C2D971AAAF14900281175 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D961AAAF14900281175 /* InfoViewController.swift */; };
+		DF6C2D991AAAF49A00281175 /* ExpiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6C2D981AAAF49A00281175 /* ExpiryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,13 @@
 		DF6C2D761AAA92CE00281175 /* Warranty MemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Warranty MemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF6C2D7B1AAA92CE00281175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF6C2D7C1AAA92CE00281175 /* Warranty_MemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warranty_MemoTests.swift; sourceTree = "<group>"; };
+		DF6C2D861AAA9D5F00281175 /* iphone6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone6.jpg; sourceTree = "<group>"; };
+		DF6C2D881AAAA04E00281175 /* MacBook Air.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MacBook Air.jpg"; sourceTree = "<group>"; };
+		DF6C2D8A1AAAA1AD00281175 /* COOLPIX S9300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "COOLPIX S9300.jpg"; sourceTree = "<group>"; };
+		DF6C2D8B1AAAA1AD00281175 /* iPad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iPad.jpg; sourceTree = "<group>"; };
+		DF6C2D8C1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "空気清浄機F-VXJ35.jpg"; sourceTree = "<group>"; };
+		DF6C2D961AAAF14900281175 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InfoViewController.swift; path = ../InfoViewController.swift; sourceTree = "<group>"; };
+		DF6C2D981AAAF49A00281175 /* ExpiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpiryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +93,15 @@
 		DF6C2D601AAA92CE00281175 /* Warranty Memo */ = {
 			isa = PBXGroup;
 			children = (
+				DF6C2D8A1AAAA1AD00281175 /* COOLPIX S9300.jpg */,
+				DF6C2D8B1AAAA1AD00281175 /* iPad.jpg */,
+				DF6C2D8C1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg */,
+				DF6C2D881AAAA04E00281175 /* MacBook Air.jpg */,
+				DF6C2D861AAA9D5F00281175 /* iphone6.jpg */,
 				DF6C2D631AAA92CE00281175 /* AppDelegate.swift */,
 				DF6C2D681AAA92CE00281175 /* ViewController.swift */,
+				DF6C2D961AAAF14900281175 /* InfoViewController.swift */,
+				DF6C2D981AAAF49A00281175 /* ExpiryViewController.swift */,
 				DF6C2D6A1AAA92CE00281175 /* Main.storyboard */,
 				DF6C2D6D1AAA92CE00281175 /* Images.xcassets */,
 				DF6C2D6F1AAA92CE00281175 /* LaunchScreen.xib */,
@@ -195,9 +216,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6C2D8E1AAAA1AD00281175 /* iPad.jpg in Resources */,
 				DF6C2D6C1AAA92CE00281175 /* Main.storyboard in Resources */,
 				DF6C2D711AAA92CE00281175 /* LaunchScreen.xib in Resources */,
+				DF6C2D8F1AAAA1AD00281175 /* 空気清浄機F-VXJ35.jpg in Resources */,
 				DF6C2D6E1AAA92CE00281175 /* Images.xcassets in Resources */,
+				DF6C2D871AAA9D5F00281175 /* iphone6.jpg in Resources */,
+				DF6C2D891AAAA04E00281175 /* MacBook Air.jpg in Resources */,
+				DF6C2D8D1AAAA1AD00281175 /* COOLPIX S9300.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +241,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6C2D991AAAF49A00281175 /* ExpiryViewController.swift in Sources */,
 				DF6C2D691AAA92CE00281175 /* ViewController.swift in Sources */,
 				DF6C2D641AAA92CE00281175 /* AppDelegate.swift in Sources */,
+				DF6C2D971AAAF14900281175 /* InfoViewController.swift in Sources */,
 				DF6C2D671AAA92CE00281175 /* Warranty_Memo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
